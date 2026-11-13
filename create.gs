@@ -88,7 +88,7 @@ function createOutput(sheet, unit4, unit5, reverse, destinationCol) {
 // メニュー
 function onOpen() {
   SpreadsheetApp.getUi()
-    .createMenu("問題作成")
+    .createMenu("作成")
     .addItem("作成", "createQuestionOutput")
     .addToUi();
 }
